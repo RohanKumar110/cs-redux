@@ -13,7 +13,7 @@ const CounterOperation = () => {
                       by: 2
                     } })
                 }
-                className="bg-yellow-300 px-4 py-2 rounded-sm cursor-pointer transition active:bg-yellow-500 hover:bg-yellow-200 "
+                className="bg-red-300 px-4 py-2 rounded-sm cursor-pointer transition active:bg-red-500 hover:bg-red-200 "
             >
                 -
             </button>
@@ -21,7 +21,7 @@ const CounterOperation = () => {
                 onClick={() =>
                     dispatch(incrementAction())
                 }
-                className="bg-yellow-300 px-4 py-2 rounded-sm cursor-pointer transition active:bg-yellow-500 hover:bg-yellow-200 "
+                className="bg-red-300 px-4 py-2 rounded-sm cursor-pointer transition active:bg-red-500 hover:bg-red-200 "
             >
                 +
             </button>
